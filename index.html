@@ -1,0 +1,124 @@
+<!Doctype html>
+<html>
+<title>Project 5</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+    <div class="fp">
+        <div class="sidemenu">
+            <img class="iconimg"src="0.jpg">
+            <a href="#">How to Blueprints</a>
+            <a href="#"><img class="icon" src="11.jpg" width="35px">Scheduled trainings</a>
+            <a href="#"><img class="icon" src="12.jpg" width="35px">Tools & Templates</a>
+            <a href="#"><img class="icon" src="13.jpg" width="35px">Insider Monthly</a>
+            <button class="dropdown-btn"><img src="9.jpg" width="35px">Fast start training<i class="fa facaretdown"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Elite fast Start</a>
+                <a href="#">Basic traffic</a>
+                <a href="#">Intermediate Traffic</a>
+                <a href="#">Advanced traffic</a>
+            </div>
+
+        </div>
+        <div class="topnav">
+            <a href="#home">My Coaching</a>
+            <a href="#news">My Account</a>
+            <a href="#contact">My Offers</a>
+            <a href="#about">My training</a>
+            <a href="#about">My Money</a>
+            <a href="#about">My Products</a>
+            
+        </div>
+        <div class="maincontainer">
+            <div class="top2">
+                <h4>Elite Insider Fast-Start Training</h4>
+            </div>
+            <div class="cardscontainer">
+                <div class="a1">
+                    <img class="cardimg" src="1.jpg">
+                    <h5 class="header"><strong>Your EMP Back OfficeTour</strong></h5>
+                    <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders!
+                        Recommending.</p>
+                        <hr class="line">
+                    <button class="button">LEARN MORE</button>
+                </div>
+                <div class="a1">
+                    <img class="cardimg" src="2.jpg">
+                    <h5 class="header"><strong>An Overview of Insider Tools & Benefits</strong></h5>
+                    <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders! Recommending.</p>
+                        <hr class="line">
+                    <button class="button">LEARN MORE</button>
+                </div>
+                <div class="a1">
+                    <img class="cardimg" src="3.jpg">
+                    <h5 class="header"><strong>The EMP Affiliate Compensation Plan</strong></h5>
+                    <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders! Recommending.</p>
+                        <hr class="line">
+                    <button class="button">LEARN MORE</button>
+                </div>
+                <div class="a1">
+                    <img class="cardimg" src="4.jpg">
+                    <h5 class="header"><strong>How The EMP Coaching</strong></h5>
+                    <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders! Recommending.</p>
+                        <hr class="line">
+                    <button class="button">LEARN MORE</button>
+                </div>
+                <div class="a1">
+                    <img class="cardimg" src="5.jpg">
+                    
+                    <h5 class="header"><strong>How To Refer People And Make Money</strong></h5>
+                    <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders! Recommending.</p>
+                        <hr class="line">
+                    <button class="button">LEARN MORE</button>
+                </div>
+                
+                <div class="a1">
+                        <img class="cardimg" src="6.jpg">
+                        
+                        <h5 class="header"><strong>How To Get Help & Support</strong></h5>
+                        <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders! Recommending.</p>
+                            <hr class="line">
+                        <button class="button">LEARN MORE</button>
+                    </div>
+                    <div class="a1">
+                        <img class="cardimg" src="7.jpg">
+                        
+                        <h5 class="header"><strong>Getting Started:The Essential Trainings</strong></h5>
+                        <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders! Recommending.</p>
+                            <hr class="line">
+                        <button class="button">LEARN MORE</button>
+                    </div>
+                    <div class="a1">
+                        <img class="cardimg" src="8.jpg">
+                        
+                        <h5 class="header"><strong>The Fastest Way To Get Your First Sale</strong></h5>
+                        <p class="p1">Live 15 minutes of daily motivation, inspiration and education with EMP & World buisiness leaders! Recommending.</p>
+                            <hr class="line">
+                        <button class="button">LEARN MORE</button>
+                    </div>
+            </div>
+        </div>
+</body>
+<script>
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+</script>
+</head>
+
+</html>

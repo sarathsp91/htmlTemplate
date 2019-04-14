@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    background-color: #E6EFF6;
+}
+
+.maincontainer {
+    width: calc(100% - 210px);
+    margin-top: 50px;
+    float: right;
+}
+
+.topnav {
+    float: left;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    padding-left: 0px;
+    position: fixed;
+    background-color: #3C9FEC;
+    border: none;
+    top: 0;
+    margin: 0 0 0 210px;
+}
+
+.topnav a:hover {
+    box-shadow: 5px 7px 13px #aaaaaa; 
+color: black;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+}
+
+.top2 {
+    /* position: absolute; */
+    background-color: white;
+    /* top: 50px; */
+    /* margin: 0; */
+    left: 210px;
+    padding: 10px 0px;
+    width: 100%;
+    border: none;
+}
+
+.sidemenu {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.sidemenu a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    border-left: 2px solid white;
+    background: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: white;
+    padding-left: 8px;
+}
+
+.sidemenu a:hover {
+    background-color: #F3F4F9;
+    border-left: 2px solid blue;
+}
+.p1 {
+    padding: 0px 25px;
+    color: darkgray;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header { 
+    color: #000;
+    font-size: 14px;
+    padding: 0px 60px;
+    height: 20px;
+}
+
+.iconimg {
+    display: block;
+    top: 50px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    border: none;
+    color: #000;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: deepskyblue;
+    color: white;
+    cursor: pointer
+}
+
+.cardscontainer {
+    margin: 20px;
+    float: left;
+}
+
+.a1 {
+    text-align: center;
+    width: calc(25% - 37px);
+    margin: 15px 15px;  
+    background-color: white;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px #aaaaaa;
+    /* cursor: pointer; */
+}
+.a1:hover{
+    box-shadow: 5px 7px 13px #aaaaaa;
+}
+.cardimg{
+    height: 80px;
+}
+.line{
+width: 50px;
+margin: 20px auto 5px auto;
+}
+.icon{
+
+}
